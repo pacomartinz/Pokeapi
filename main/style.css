@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__image {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  height: 290px;
+  width: auto;
+}
+
+.header__image:hover {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  height: 300px;
+  width: auto;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 60px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+
+body {
+  background-color: rgb(143, 215, 222);
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 25%;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/assets/card_v003.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 380px;
+  border: 6px solid rgb(33, 33, 33);
+  border-radius: 20px;
+}
+
+.tarjeta:hover {
+  display: flex;
+  flex-direction: column;
+  gap: 25%;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/assets/card_v003_hover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 390px;
+  border: 6px solid rgb(238, 229, 56);
+  border-radius: 20px;
+  transform: translateY(-15px);
+  cursor: pointer;
+  box-shadow: 0px 10px 10px 10px rgb(79, 79, 79);
+}
+
+img {
+  width: 180px;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 #343333, -2px 0 #2f2f2f, 0 2px #191919, 0 -2px #1a1919;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.input__filter {
+  width: 320px;
+  height: 50px;
+  border: 4px solid rgb(76, 76, 76);
+  border-radius: 25px;
+  padding-left: 20px;
+  box-shadow: 0px 10px 10px 0px rgb(74, 74, 74);
+}
+
+.input__filter:hover {
+  width: 320px;
+  height: 50px;
+  border: 4px solid rgb(211, 198, 51);
+  border-radius: 25px;
+  padding-left: 30px;
+}/*# sourceMappingURL=style.css.map */

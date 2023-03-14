@@ -1,0 +1,23 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.header__image{
+    padding-top: 4%;
+    padding-bottom: 4%;
+   height: 290px;
+   width: auto;
+
+}
+
+.header__image:hover{
+    padding-top: 4%;
+    padding-bottom: 4%;
+   height: 300px;
+   width: auto;
+
+}
