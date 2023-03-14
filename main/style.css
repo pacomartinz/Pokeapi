@@ -44,7 +44,7 @@ body {
   gap: 25%;
   justify-content: space-around;
   align-items: center;
-  background-image: url(/assets/card_v003.png);
+  background-image: url("../assets/card_v003.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 220px;
@@ -59,7 +59,7 @@ body {
   gap: 25%;
   justify-content: space-around;
   align-items: center;
-  background-image: url(/assets/card_v003_hover.png);
+  background-image: url("../assets/card_v003_hover.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 230px;
